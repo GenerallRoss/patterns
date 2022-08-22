@@ -22,9 +22,9 @@ class NewObserver implements Observable {
 
   @override
   void notifyObservers(String newText) {
-    clients.forEach((element) {
+    for (var element in clients) {
       element.update(newText);
-    });
+    }
   }
 }
 
