@@ -9,9 +9,10 @@ import 'MyIterator/my_iterator.dart';
 import 'MyMediator/my_mediator.dart';
 import 'MyObserver/my_observer.dart';
 import 'MyPrototype/my_prototype.dart';
+import 'MySingleton/my_singleton.dart';
 import 'MyStrategy/my_strategy.dart';
 import 'MyTemplateMethod/my_template_method.dart';
 
 void main() {
-  runMyChainOfResponsibility();
+  runMySingleton();
 }
