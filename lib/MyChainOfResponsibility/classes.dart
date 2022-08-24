@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class Receiver {
   bool bankTranfer;
   bool moneyTranfer;
+  // ignore: non_constant_identifier_names
   bool PayPalTransfer;
 
   Receiver(this.bankTranfer, this.moneyTranfer, this.PayPalTransfer);
